@@ -1,0 +1,58 @@
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T12:55:36.283Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:12:55:36 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T12:55:36.311Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T12:57:29.657Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:12:57:29 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T12:57:29.662Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T12:57:30.740Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:12:57:30 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T12:57:30.743Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T12:57:31.401Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:12:57:31 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T12:57:31.407Z"}
+{"level":"info","message":"Server is running on port http://localhost:3000","service":"acquistions-api","timestamp":"2026-02-04T12:58:39.861Z"}
+{"level":"info","message":"Server is running on port http://localhost:3000","service":"acquistions-api","timestamp":"2026-02-04T12:58:40.385Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T12:59:58.553Z"}
+{"level":"warn","message":"This is a warning test","service":"acquistions-api","timestamp":"2026-02-04T12:59:58.562Z"}
+{"level":"error","message":"This is an error test","service":"acquistions-api","timestamp":"2026-02-04T12:59:58.563Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:12:59:58 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T12:59:58.579Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T13:00:00.049Z"}
+{"level":"warn","message":"This is a warning test","service":"acquistions-api","timestamp":"2026-02-04T13:00:00.058Z"}
+{"level":"error","message":"This is an error test","service":"acquistions-api","timestamp":"2026-02-04T13:00:00.059Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:13:00:00 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T13:00:00.063Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T13:00:00.861Z"}
+{"level":"warn","message":"This is a warning test","service":"acquistions-api","timestamp":"2026-02-04T13:00:00.862Z"}
+{"level":"error","message":"This is an error test","service":"acquistions-api","timestamp":"2026-02-04T13:00:00.863Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:13:00:00 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T13:00:00.867Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T13:00:07.974Z"}
+{"level":"warn","message":"This is a warning test","service":"acquistions-api","timestamp":"2026-02-04T13:00:07.975Z"}
+{"level":"error","message":"This is an error test","service":"acquistions-api","timestamp":"2026-02-04T13:00:07.979Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:13:00:07 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T13:00:07.984Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T13:00:08.644Z"}
+{"level":"warn","message":"This is a warning test","service":"acquistions-api","timestamp":"2026-02-04T13:00:08.645Z"}
+{"level":"error","message":"This is an error test","service":"acquistions-api","timestamp":"2026-02-04T13:00:08.646Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:13:00:08 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T13:00:08.654Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T13:00:09.343Z"}
+{"level":"warn","message":"This is a warning test","service":"acquistions-api","timestamp":"2026-02-04T13:00:09.345Z"}
+{"level":"error","message":"This is an error test","service":"acquistions-api","timestamp":"2026-02-04T13:00:09.346Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:13:00:09 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T13:00:09.359Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T13:00:09.998Z"}
+{"level":"warn","message":"This is a warning test","service":"acquistions-api","timestamp":"2026-02-04T13:00:10.003Z"}
+{"level":"error","message":"This is an error test","service":"acquistions-api","timestamp":"2026-02-04T13:00:10.005Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:13:00:10 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T13:00:10.009Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T13:00:10.656Z"}
+{"level":"warn","message":"This is a warning test","service":"acquistions-api","timestamp":"2026-02-04T13:00:10.657Z"}
+{"level":"error","message":"This is an error test","service":"acquistions-api","timestamp":"2026-02-04T13:00:10.659Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:13:00:10 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T13:00:10.664Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T13:00:11.764Z"}
+{"level":"warn","message":"This is a warning test","service":"acquistions-api","timestamp":"2026-02-04T13:00:11.769Z"}
+{"level":"error","message":"This is an error test","service":"acquistions-api","timestamp":"2026-02-04T13:00:11.771Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:13:00:11 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T13:00:11.779Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T13:00:43.352Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:13:00:43 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T13:00:43.373Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T13:01:02.219Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:13:01:02 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T13:01:02.226Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T13:03:51.214Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:13:03:51 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T13:03:51.218Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T13:03:53.231Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:13:03:53 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T13:03:53.239Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T13:03:54.415Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:13:03:54 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T13:03:54.424Z"}
+{"level":"info","message":"Root endpoint accessed","service":"acquistions-api","timestamp":"2026-02-04T13:03:55.956Z"}
+{"level":"info","message":"::1 - - [04/Feb/2026:13:03:55 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0\"","service":"acquistions-api","timestamp":"2026-02-04T13:03:55.961Z"}
