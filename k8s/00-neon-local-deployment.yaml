@@ -1,0 +1,69 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: neon-local
+  labels:
+    app: neon-local
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: neon-local
+  template:
+    metadata:
+      labels:
+        app: neon-local
+    spec:
+      containers:
+      - name: neon-local
+        image: neondatabase/neon_local:latest
+        ports:
+        - containerPort: 5432
+        env:
+        - name: NEON_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: acquisitions-secret
+              key: NEON_API_KEY
+        - name: NEON_PROJECT_ID
+          valueFrom:
+            secretKeyRef:
+              name: acquisitions-secret
+              key: NEON_PROJECT_ID
+        - name: PARENT_BRANCH_ID
+          valueFrom:
+            secretKeyRef:
+              name: acquisitions-secret
+              key: PARENT_BRANCH_ID
+        livenessProbe:
+          exec:
+            command:
+            - sh
+            - -c
+            - pg_isready -h localhost -p 5432 -U neon
+          initialDelaySeconds: 10
+          periodSeconds: 10
+          timeoutSeconds: 3
+          failureThreshold: 5
+        readinessProbe:
+          exec:
+            command:
+            - sh
+            - -c
+            - pg_isready -h localhost -p 5432 -U neon
+          initialDelaySeconds: 10
+          periodSeconds: 5
+          timeoutSeconds: 3
+        resources:
+          requests:
+            cpu: 100m
+            memory: 256Mi
+          limits:
+            cpu: 500m
+            memory: 512Mi
+        volumeMounts:
+        - name: neon-local-data
+          mountPath: /tmp/.neon_local
+      volumes:
+      - name: neon-local-data
+        emptyDir: {}
