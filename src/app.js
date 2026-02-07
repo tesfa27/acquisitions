@@ -5,9 +5,11 @@ import morgan from 'morgan';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import authRoutes from '#routes/auth.routes.js';
-import securityMiddleware from '#middleware/security.middleware.js';
+// import securityMiddleware from '#middleware/security.middleware.js';
 import usersRoutes from '#routes/users.routes.js';
 const app = express();
+
+const podName = process.env.HOSTNAME || 'unknown';
 
 app.use(helmet());
 app.use(cors());
@@ -23,7 +25,7 @@ app.use(
   })
 );
 
-app.use(securityMiddleware);
+// app.use(securityMiddleware);
 
 app.get('/', (req, res) => {
   logger.info('Root endpoint accessed');
@@ -36,11 +38,16 @@ app.get('/health', (req, res) => {
     status: 'OK',
     timestamp: new Date().toISOString(),
     uptime: process.uptime(),
+    pod: podName,
   });
 });
 
+app.get('/ready', (req, res) => {
+  res.status(200).json({ status: 'ready', pod: podName });
+});
+
 app.get('/api', (req, res) => {
-  res.status(200).json({ message: 'API is running' });
+  res.status(200).json({ message: 'API is running', pod: podName });
 });
 
 app.use('/api/auth', authRoutes);

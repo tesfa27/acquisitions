@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: acquisitions-app
+  labels:
+    app: acquisitions
+spec:
+  type: NodePort
+  selector:
+    app: acquisitions
+  ports:
+    - protocol: TCP
+      port: 3000 # Service port
+      targetPort: 3000 # Container port
+  type: NodePort # change to LoadBalancer if running in cloud

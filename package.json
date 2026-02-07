@@ -27,6 +27,7 @@
     "db:studio": "drizzle-kit studio",
     "dev:docker": "sh ./scripts/dev.sh",
     "prod:docker": "sh ./scripts/prod.sh",
+    "k8s:deploy": "sh ./scripts/deploy.sh",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "repository": {

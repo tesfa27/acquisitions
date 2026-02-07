@@ -1,0 +1,2 @@
+# Ingress not needed for Minikube - use NodePort Service instead
+# Access app at: http://$(minikube ip):30000
